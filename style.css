@@ -1,0 +1,203 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fdd835; /* Amarelo do mel */
+    color: white;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    color: #4b380a; /* Marrom escuro */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav a {
+    color: #4b380a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #795548; /* Marrom mais claro */
+}
+
+/* Seções de Conteúdo */
+.content-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.content-section h2 {
+    color: #4b380a;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.content-section p {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.light-background {
+    background-color: #fff;
+}
+
+/* Seção Hero */
+.hero-section {
+    background: url('https://via.placeholder.com/1500x500/fdd835/4b380a?text=Arapoti+-+Capital+do+Mel') no-repeat center center/cover; /* Imagem de fundo */
+    color: white;
+    padding: 100px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.hero-section button {
+    background-color: #795548;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-section button:hover {
+    background-color: #4b380a;
+}
+
+/* Grid de Produção */
+.producao-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.producao-grid .item {
+    background-color: #ffe082; /* Amarelo mais claro */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.producao-grid .item:hover {
+    transform: translateY(-5px);
+}
+
+.producao-grid .item h3 {
+    color: #4b380a;
+    margin-top: 0;
+}
+
+/* Formulário de Contato */
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff8e1; /* Amarelo muito claro */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+#contactForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4b380a;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contactForm button {
+    background-color: #fdd835;
+    color: #4b380a;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #fbc02d;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #4b380a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}

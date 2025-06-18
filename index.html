@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arapoti: Capital Nacional do Mel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Arapoti: Capital Nacional do Mel</h1>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#producao">Produção</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Descubra o Doce Ouro do Paraná</h2>
+                <p>Arapoti, reconhecida como a Capital Nacional do Mel, é o coração da apicultura brasileira.</p>
+                <button id="saibaMaisBtn">Saiba Mais</button>
+            </div>
+        </section>
+
+        <section id="sobre" class="content-section">
+            <div class="container">
+                <h2>Sobre a Apicultura em Arapoti</h2>
+                <p>Arapoti se destaca como o maior produtor de mel do Brasil, com uma produção anual expressiva e cerca de 300 famílias dedicadas a essa nobre atividade. Nossa tradição e inovação fazem de Arapoti um polo de excelência no setor apícola.</p>
+                <p>Investimos constantemente em profissionalização e boas práticas de manejo, garantindo a qualidade e sustentabilidade da nossa produção.</p>
+            </div>
+        </section>
+
+        <section id="producao" class="content-section light-background">
+            <div class="container">
+                <h2>Nossa Produção de Mel</h2>
+                <div class="producao-grid">
+                    <div class="item">
+                        <h3>Mel Puro</h3>
+                        <p>Mel de alta qualidade, colhido de forma sustentável, preservando todas as suas propriedades nutritivas e sabor único.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Própolis</h3>
+                        <p>Produto com reconhecidas propriedades terapêuticas, essencial para a saúde e bem-estar.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Cera de Abelha</h3>
+                        <p>Utilizada em diversas aplicações, da cosmética à fabricação de velas, nossa cera é de pureza inigualável.</p>
+                    </div>
+                    <div class="item">
+                        <h3>Pólen</h3>
+                        <p>Rico em vitaminas e minerais, nosso pólen é um superalimento natural.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eventos" class="content-section">
+            <div class="container">
+                <h2>Eventos e Capacitação</h2>
+                <p>Arapoti é palco de eventos importantes como o **Seminário de Apicultura**, que visa profissionalizar a atividade, promover boas práticas de manejo e incentivar a cooperação entre apicultores e instituições técnicas. O Sebrae/PR, por exemplo, oferece consultorias e cursos de capacitação para nossos produtores.</p>
+                <p>Nossas iniciativas buscam sempre aprimorar o conhecimento e a sustentabilidade da apicultura local.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="content-section light-background">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Se você deseja saber mais sobre a apicultura em Arapoti, nossos produtos ou eventos, entre em contato conosco:</p>
+                <form id="contactForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+                <div id="formMessage" class="message"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Arapoti: Capital Nacional do Mel. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
